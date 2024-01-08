@@ -2,7 +2,6 @@ div {
     text-align: center;
 }
 
-
 ol {
     list-style: none;
     display: grid;
@@ -10,15 +9,56 @@ ol {
     padding: 0;
 }
 
-.first-day-Gener {
-    grid-column-start: 1;
-}
-
 .day-name {
     background: #eee;
     font-weight: bold;
 }
 
+.first-day-Gener {
+    grid-column-start: 1;
+}
+
 .first-day-Febrer {
     grid-column-start: 4;
 }
+
+.first-day-Març {
+    grid-column-start: 5;
+}
+
+.first-day-Abril {
+    grid-column-start: 1;
+}
+
+.first-day-Maig {
+    grid-column-start: 3;
+}
+
+.first-day-Juny {
+    grid-column-start: 6;
+}
+
+.first-day-Juliol {
+    grid-column-start: 1;
+}
+
+.first-day-Agost {
+    grid-column-start: 4;
+}
+
+.first-day-Setembre {
+    grid-column-start: 7;
+}
+
+.first-day-Octubre {
+    grid-column-start: 2;
+}
+
+.first-day-Novembre {
+    grid-column-start: 5;
+}
+
+.first-day-Desembre {
+    grid-column-start: 7;
+}
+
