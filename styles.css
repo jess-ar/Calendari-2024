@@ -1,5 +1,3 @@
-/* comentario */
-
 div {
     text-align: center;
 
@@ -8,6 +6,14 @@ div {
 .month {
     display: inline-block;
     margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    padding: 30px;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+    font-weight: 800;
+    
+}
+
+h1 {
+    color: seagreen;
 }
 
 ol {
@@ -19,12 +25,17 @@ ol {
 
 .day-name {
     background: #eee;
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family:'Fira Sans', sans-serif;
+    margin-right: 10px;
+    
 }
 
 ol li:not(.day-name){
-    font-size: 15px; 
+    font-size: 30px; 
+    font-weight: 300;
+    font-family:'Fira Sans', sans-serif;
 }
 .first-day-Gener {
     grid-column-start: 1;
