@@ -1,6 +1,25 @@
-div {
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: seagreen;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+article {
     text-align: center;
 
+}
+
+p {
+    color: seagreen;
+    text-align: center; /* Para centrar horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    font-family: 'Fira Sans', Helvetica, sans-serif; /* Cambia la fuente si es necesario */
+    font-weight: 900; /* Ajusta el peso de la fuente */
 }
 
 .month {
@@ -12,11 +31,7 @@ div {
     
 }
 
-h1 {
-    color: seagreen;
-}
-
-ol {
+.calendar {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -84,4 +99,3 @@ ol li:not(.day-name){
 .first-day-Desembre {
     grid-column-start: 7;
 }
-
