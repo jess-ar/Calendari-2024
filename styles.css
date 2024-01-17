@@ -1,57 +1,57 @@
 body {
     text-align: center;
+    width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px; /* para ajustar los margenes de separacion con margin*/
 }
 
-h1 {
-    text-align: center;
-    color: seagreen;
-    font-family: 'Fira Sans', Helvetica, sans-serif;
-    font-weight: 900;
-}
-
-article {
-    text-align: center;
-
-}
-
-p {
-    color: seagreen;
-    text-align: center; /* Para centrar horizontalmente */
-    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
-    font-family: 'Fira Sans', Helvetica, sans-serif; /* Cambia la fuente si es necesario */
-    font-weight: 900; /* Ajusta el peso de la fuente */
-}
-
-.month {
-    display: inline-block;
-    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
-    padding: 30px;
-    font-family: 'Fira Sans', Helvetica, sans-serif;
-    font-weight: 800;
-    
-}
-
-.calendar {
+ol {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    margin: 0;
     padding: 0;
 }
 
+.month { 
+    display: inline-block;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: seagreen;
+    margin-bottom: 5px;
+}
+
+p {
+    display: grid;
+    font-size: 25px;
+    color: seagreen;
+    font-weight: 900; /* Ajusta el peso de la fuente */
+    margin-bottom: 5px;
+}
+
 .day-name {
-    background: #eee;
-    font-weight: 800;
-    font-size: 20px;
-    font-family:'Fira Sans', sans-serif;
-    margin-right: 10px;
-    
+    background: seagreen;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
 ol li:not(.day-name){
-    font-size: 30px; 
+    margin-left: 0px;
+    font-size: 1.5ch 
     font-weight: 300;
-    font-family:'Fira Sans', sans-serif;
 }
+
 .first-day-Gener {
     grid-column-start: 1;
 }
